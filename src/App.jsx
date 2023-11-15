@@ -6,7 +6,7 @@ import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react'
 
 function App() {
-  const API_KEY = import.meta.env.OPENAI_API_KEY //Remember to delete!
+  const API_KEY = '' //Remember to delete!
   const [type, setType] = useState(false)
   const [messages, setMessages] = useState([
     {
